@@ -10,12 +10,12 @@ public class Professor extends Funcionario
     public HashSet<Aluno> get_Aluno()
     { return m_alunos; }
 
-    public HashSet<Aluno> set_aluno( HashSet<Aluno> alunos)
-    { m_alunos = alunos; }
+//    public HashSet<Aluno> set_aluno( HashSet<Aluno> alunos)
+//    { m_alunos = alunos; }
 
     public void add_aluno(Aluno a)
-    { alunos.add(a); }
+    { m_alunos.add(a); }
 
     public void remove_aluno(Aluno a)
-    { alunos.remove(a); }
+    { m_alunos.remove(a); }
 }

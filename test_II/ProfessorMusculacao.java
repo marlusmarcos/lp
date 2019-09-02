@@ -1,2 +1,2 @@
-public class ProfessorMusculacao
+public class ProfessorMusculacao extends Professor
 { /* empty */ }
